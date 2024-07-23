@@ -51,6 +51,7 @@ h2 {
     flex-direction: column;
     text-align: center;
     overflow: hidden;
+    margin-bottom: 3rem;
 
 
 }
@@ -165,6 +166,8 @@ h2 {
 
 .section_button_header h5 {
     color: #0A5438;
+    font-size: larger;
+    margin: 0.5rem;
 }
 
 .main_torta {
