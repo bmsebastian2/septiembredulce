@@ -55,17 +55,19 @@
     <title>Tortas Septiembre Dulce</title>
 
     <!-- Stylesheets -->
+    <link rel="preload" href="./font/InriaSans-Light-subset.woff2" as="font" type="font/woff" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/style.css">
     <link rel="stylesheet" href="./style/menu.css">
     <link rel="stylesheet" href="./style/button.css">
     <link rel="stylesheet" href="./style/textanimate.css">
     <link rel="stylesheet" href="./style/animation.css">
+    <link rel="stylesheet" href="./style/scroll.css">
 </head>
 <body>
 
     <section class="layout">
 
-        <div class="header">
+        <header class="header">
 
             <nav class="navbar">
                 <div class="nav-logo">Logo</div>
@@ -82,35 +84,38 @@
             </nav>
 
             <div class="header_main">
+
                 <div class="header_main_div1">
 
-                    <img class="animateTorta" src="./public/birthday-cake.png" alt="Logo Septiembre dulce" srcset="">
+
 
                     <section>
+
+                        <img class="animateToarta" src="./public/confetti.svg" alt="Logo Septiembre dulce" srcset="">
 
                     </section>
 
 
                 </div>
+
                 <div class="header_main_div2">
-                    <img src="./public/S4_Gift 1.png" alt="Logo Septiembre dulce" srcset="">
+                    <img src="./public/S4_Gift 1.svg" alt="Logo Septiembre dulce" srcset="">
+                    <section>
+                        <img class="animateToarta" src="./public/birthday-cake.png" alt="Logo Septiembre dulce"
+                            srcset="">
+                    </section>
+
                 </div>
 
                 <div class="header_main_div3">
 
                     <section>
-                        <div class="text-animator">
-                            <div class="text-slide">TORTAS</div>
-                            <div class="text-slide">PASTELES</div>
-                            <div class="text-slide">CONFITERIA</div>
-                        </div>
+
                     </section>
                 </div>
             </div>
 
-            <div>
-
-
+            <div class="section_button_header">
 
                 <button class="animated-button">
                     <svg viewBox="0 0 24 24" class="arr-2" xmlns="http://www.w3.org/2000/svg">
@@ -118,7 +123,7 @@
                             d="M16.1716 10.9999L10.8076 5.63589L12.2218 4.22168L20 11.9999L12.2218 19.778L10.8076 18.3638L16.1716 12.9999H4V10.9999H16.1716Z">
                         </path>
                     </svg>
-                    <span class="text2">Quiero Torta</span>
+                    <span class="text2">WhatApps</span>
                     <span class="circle"></span>
                     <svg viewBox="0 0 24 24" class="arr-1" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -127,18 +132,222 @@
                     </svg>
                 </button>
 
+                <section>
+                    <div class="text-animator">
+                        <div class="text-slide">TORTAS</div>
+                        <div class="text-slide">PASTELES</div>
+                        <div class="text-slide">DULCES</div>
+                    </div>
+                </section>
+
                 <div class="text">
-                    <p id="header_description">elaboradas con ingredientes frescos y de la mejor calidad</p>
+                    <h5 id="header_description">elaboradas con ingredientes frescos y de la mejor calidad</h5>
 
 
                 </div>
             </div>
 
-        </div>
+        </header>
+
+        <main class="main">
+
+            <div class="heoreFirst ">
+                <h2>Disfruta de Nuestras Tortas 😉</h2>
+            </div>
+
+            <section class="main">
+                <div class="container">
+                    <div class="scroll">
+                        <div class="card">
+                            <div class="box2  cyan ">
+                                <hr>
+                                <h3>Selecciona Nuestras Tortas</h3>
+                                <hr>
+                                <p>Cuando queremos buscar algo, acudimos directamente a internet. Por eso, si aún no
+                                    estás
+                                    en el
+                                    mundo
+                                    digital, queremos contarte los 9 beneficios de una página web.</p>
+                                <img loading="lazy " src="./public/S4_Gift 1.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./public/Prontas/IMG-20240609-WA0001.jpg" loading="lazy" id='0'
+                                    class="responsive botonImagen" alt="Images">
+                            </div>
+                            <div class="card-inner">
+                                <hr>
+                                <h3 class="text text-title">Incrementa las ventas</h3>
+                                <hr>
+                                <p class="paragraph truncate">
+                                    Aumentando tu visibilidad en internet puedes hacer que tus ventas aumenten. Como
+                                    comentamos
+                                    anteriormente, una página web bien estructurada, hará que tus clientes fidelicen
+                                    contigo.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./public/Prontas/IMG-20240609-WA0002.jpg" loading="lazy" id='1'
+                                    class="responsive botonImagen" alt="Images">
+                            </div>
+                            <div class="card-inner">
+                                <hr>
+                                <h3 class="text text-title">Nuevos clientes</h3>
+                                <hr>
+                                <p class="paragraph truncate">
+                                    Tienes la posibilidad de que los clientes que no pueden ir a tu
+                                    negocio físico, lo puedan hacer de forma virtual.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./public/Prontas/IMG-20240609-WA0003.jpg" loading="lazy" id='2'
+                                    class="responsive botonImagen" alt="Images">
+                            </div>
+                            <div class="card-inner">
+                                <hr>
+                                <h3 class="text text-title">Servicio 24 horas</h3>
+                                <hr>
+                                <p class="paragraph truncate">
+                                    Permitir que tu negocio este abierto todos los días del año a cualquier hora.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./public/Prontas/IMG-20240609-WA0004.jpg" loading="lazy" id='3'
+                                    class="responsive botonImagen" alt="Images">
+                            </div>
+                            <div class="card-inner">
+                                <hr>
+                                <h3 class="text text-title">Mejorar la imagen</h3>
+                                <hr>
+                                <p class="paragraph truncate">
+                                    Tener una página web, permitirá plasmar todos tu contenido en ella y todo lo que
+                                    quieras
+                                    reflejar.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./public//Prontas/IMG-20240609-WA0005.jpg" loading="lazy" id='4'
+                                    class="responsive botonImagen" alt="Images">
+                            </div>
+                            <div class="card-inner">
+                                <hr>
+                                <h3 class="text text-title">Posicionar la marca</h3>
+                                <hr>
+                                <p class="paragraph truncate">
+                                    Contar con un espacio digital, es fundamental hoy en día. Por eso, tener una página
+                                    web
+                                    te
+                                    dará
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./public/Prontas/IMG-20240609-WA0006.jpg" loading="lazy" id='5'
+                                    class="responsive botonImagen" alt="Images">
+                            </div>
+                            <div class="card-inner">
+                                <hr>
+                                <h3 class="text text-title">Fideliza a tus clientes</h3>
+                                <hr>
+                                <p class="paragraph truncate">
+                                    A través de la página web, podrás conocer los gustos de tus clientes y saber qué es
+                                    lo
+                                    que
+                                    quieren
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./public/Prontas/IMG-20240609-WA0007.jpg" loading="lazy" id='6'
+                                    class="responsive botonImagen" alt="Images">
+                            </div>
+                            <div class="card-inner">
+                                <hr>
+                                <h3 class="text text-title">Escaparate virtual</h3>
+                                <hr>
+                                <p class="paragraph truncate">
+                                    Tienes la posibilidad de mostrar tus servios o productos de diversas maneras, tanto
+                                    en
+                                    imágenes como en videos
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./public/Prontas/IMG-20240609-WA0008.jpg" loading="lazy" id='7'
+                                    class="responsive botonImagen" alt="Images">
+                            </div>
+                            <div class="card-inner">
+                                <hr>
+                                <h3 class="text text-title">Coste-beneficio</h3>
+                                <hr>
+                                <p class="paragraph truncate">
+                                    La creación de una página web, tiene costes más bajos que cualquier otro medio de
+                                    publicidad.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./public/Prontas/IMG-20240609-WA0009.jpg" loading="lazy" id='8'
+                                    class="responsive botonImagen" alt="Images">
+                            </div>
+                            <div class="card-inner">
+                                <hr>
+                                <h3 class="text text-title">Posiciona buscadores</h3>
+                                <hr>
+                                <p class="paragraph truncate">
+                                    Tener un sitio web, es que te permite mejorar tu posición en los buscadores.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./public/Prontas/IMG-20240609-WA0010.jpg" loading="lazy" id='9'
+                                    class="responsive botonImagen" alt="Images">
+                            </div>
+                            <div class="card-inner">
+                                <hr>
+                                <h3 class="text text-title">Posiciona buscadores</h3>
+                                <hr>
+                                <p class="paragraph truncate">
+                                    Tener un sitio web, es que te permite mejorar tu posición en los buscadores.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-image">
+                                <img src="./public/Prontas/IMG-20240609-WA0011.jpg" loading="lazy" id='10'
+                                    class="responsive botonImagen" alt="Images">
+                            </div>
+                            <div class="card-inner">
+                                <hr>
+                                <h3 class="text text-title">Posiciona buscadores</h3>
+                                <hr>
+                                <p class="paragraph truncate">
+                                    Tener un sitio web, es que te permite mejorar tu posición en los buscadores.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
 
 
-        <div class="main">
+
 
 
             <div class="main_torta">
@@ -158,16 +367,18 @@
                 </div>
 
             </div>
-            
+
             <div class="main_galletas">galletas</div>
             <div class="main_galleria_producto">galleria</div>
             <div class="main_review">review</div>
             <div class="main_promociones">promociones</div>
 
-        </div>
+        </main>
 
 
-        <div class="footer">footer</div>
+
+
+        <footer class="footer">footer</footer>
 
 
     </section>
