@@ -1,0 +1,133 @@
+.mainReviews {
+    min-height: 100vh;
+    background: #ecf1f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerGalleria {
+    min-height: 80vh;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.side-left {
+    /* border: 1px solid black;       */
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    color: white;
+
+}
+
+.first-rows {
+    display: flex;
+}
+
+.containerGalleria .card {
+    margin: 0.8rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.card-header {
+    display: flex;
+}
+
+.card-header p {
+    font-size: 0.8rem;
+}
+
+.card-body {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 1rem 0 1rem 0;
+
+
+}
+
+.card-footer {
+    font-size: 0.8rem;
+    opacity: 0.9;
+
+}
+
+.containerGalleria img {
+    height: 2.2rem;
+    width: 2.2rem;
+    border-radius: 50%;
+    border: 2.5px solid rgb(255, 255, 255, 0.5);
+}
+
+.containerGalleria .imagen {
+    margin-right: 1.5rem;
+}
+
+.containerGalleria .card1 {
+    background: rgb(115, 64, 198);
+}
+
+.containerGalleria .card2 {
+    background: rgb(72, 84, 106);
+}
+
+.containerGalleria .card3 {
+    background: rgb(255, 255, 255);
+}
+
+.containerGalleria .card4 {
+    background: rgb(23, 31, 44);
+}
+
+.B {
+    flex: 2;
+
+}
+
+.A {
+    flex: 4;
+
+}
+
+
+
+.side-right {
+    background: rgb(255, 255, 255);
+    margin: 0.8rem;
+    border-radius: 0.5rem;
+}
+
+
+@media (max-width: 767.98px) {
+    .containerGalleria {
+        min-height: 90vh;
+        width: 80%;
+        grid-template-columns: 1fr;
+    }
+
+    .first-rows {
+        flex-direction: column;
+    }
+
+    .B {
+        flex: 1;
+    }
+
+    .A {
+        flex: 1;
+
+    }
+
+
+}
+
+
+@media (max-width: 991.98px) {
+    .containerGalleria .container {
+        min-height: 95vh;
+        width: 90%;
+        grid-template-columns: 1fr;
+    }
+
+}
