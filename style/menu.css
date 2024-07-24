@@ -1,8 +1,9 @@
 .navbar {
     display: flex;
     justify-content: space-between;
+
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px 5rem;
     color: #509699;
 
 }
@@ -41,6 +42,17 @@
 }
 
 @media (max-width: 768px) {
+    .navbar {
+
+        align-items: center;
+        padding: 10px 1rem;
+
+    }
+
+    .nav-logo {
+        font-size: 20px;
+    }
+
     .nav-menu {
         display: none;
         flex-direction: column;

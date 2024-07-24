@@ -20,8 +20,11 @@
 
 }
 
+
+
 body {
     font-family: 'MiFuente', sans-serif;
+
 }
 
 main {
@@ -206,6 +209,30 @@ h2 {
     padding: 4rem;
     background-color: #fff;
 }
+
+.card_Torta button {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 20px;
+    border: 2px solid #d90429;
+    background: #d90429;
+}
+
+.card_Torta button:hover {
+    background: #fff;
+    color: #d90429
+}
+
+
+
 
 .heoreFirst {
     color: #0c56b8;
