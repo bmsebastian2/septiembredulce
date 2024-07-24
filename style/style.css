@@ -52,7 +52,7 @@ h2 {
     flex-direction: column;
     text-align: center;
     overflow: hidden;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 
 
 }
@@ -166,8 +166,8 @@ h2 {
 }
 
 .section_button_header h5 {
-    color: #0A5438;
-    font-size: larger;
+    color: #13a06a;
+    font-size: 1rem;
     margin: 0.5rem;
 }
 
