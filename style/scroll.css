@@ -10,6 +10,11 @@
     text-rendering: optimizeLegibility;
 }
 
+.cyan {
+    padding: 1rem;
+
+}
+
 .container {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1rem;
