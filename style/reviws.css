@@ -7,7 +7,7 @@
 }
 
 .containerGalleria {
-    min-height: 80vh;
+    min-height: 50vh;
     width: 80%;
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -65,11 +65,12 @@
 }
 
 .containerGalleria .card1 {
-    background: rgb(115, 64, 198);
+    background: #509699;
+
 }
 
 .containerGalleria .card2 {
-    background: rgb(72, 84, 106);
+    background: #13a06a;
 }
 
 .containerGalleria .card3 {

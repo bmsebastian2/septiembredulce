@@ -7,7 +7,7 @@
 
 :root {
     --cyan: #45d4d4;
-
+    --GrDark: #13a06a
 }
 
 /* styles.css */
@@ -30,7 +30,8 @@ body {
 
 
 h2 {
-    color: var(--cyan);
+    color: var(--GrDark);
+    ;
 }
 
 .layout {
