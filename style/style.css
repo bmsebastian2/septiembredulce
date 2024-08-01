@@ -173,23 +173,14 @@ h2 {
 }
 
 .main_torta {
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
-    border: 5px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card_Torta {
-    position: absolute;
-    height: 55vh;
-    width: 50vw;
-    right: 15vw;
-    top: 25vh;
-    border-top-right-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+    height: 80vh;
+    width: 70vw;
     display: flex;
     border: 5px solid gray;
 
@@ -197,6 +188,7 @@ h2 {
 
 .card_Torta>div:nth-child(1) {
     flex: 2;
+    display: grid;
 }
 
 .card_Torta>div:nth-child(2) {
